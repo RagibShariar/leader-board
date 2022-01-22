@@ -102,10 +102,14 @@ body{
     max-width: 100%;
 }
 .course-title{
+    margin-top: 13px;
+    line-height: 1.2;
+}
+.course-title a{
+    color: #1E1E1E;
     font-weight: 500;
     font-size: 20.0336px;
-    line-height: 23px;
-    color: #1E1E1E;
+    text-decoration: none;
 }
 .course-author{
     margin: -5px 0 13px 0; 
