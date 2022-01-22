@@ -1,11 +1,11 @@
 /* Common CSS */
 body{
-    background-color: #E5E5E5;
+    background-color: #F3F1FF;
     font-family: 'Poppins', sans-serif;
 }
 .container{
     width: 870px;
-    margin: 0 auto;
+    margin: 21px auto 28px;
     padding: 30px 30px 16px 30px ;
     background-color: #fff;
     border-radius: 5px;
@@ -63,27 +63,91 @@ body{
     height: 117px;
     margin-right: 16px;
 }
-.blog-content h2{
+.blog-title{
     margin: 0 0 6px 0;
     font-weight: 500;
     font-size: 20px;
     line-height: 34px;
 }
-.blog-content p{
+.blog-author{
     margin: 0;
     font-size: 16px;
     line-height: 24px;
     color: #9F9F9F;
 }
-.blog-content p span{
+.blog-author a{
     color: #562EFF;
+    text-decoration: none;
 }
 /* Top blogs end */
 /* course-section strat  */
-.course-section{}
-.course-wrapper{}
-.single-course{}
-.course-img{}
-.course-details h2{}
-.course-details p{}
+.course-section{
+    
+}
+.course-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 26px;padding-bottom: 6px;
+}
+.single-course{
+    /* width: 252.42px; */
+    /* height: 269.79px; */
+    padding: 15px 12px 16px 12px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.course-img img{
+    /* width: 224px; */
+    /* height: 104px; */
+    max-width: 100%;
+}
+.course-title{
+    font-weight: 500;
+    font-size: 20.0336px;
+    line-height: 23px;
+    color: #1E1E1E;
+}
+.course-author{
+    margin: -5px 0 13px 0; 
+    font-weight: normal;
+    font-size: 14.6913px;
+    line-height: 17px;
+    color: #ED6B4F;
+}
+.course-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.course-info .course-duration{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #FF4A60; 
+    background-color: #FFE4E8;
+    padding: 7px 10px;
+    border-radius: 50px;
+}
+.course-info .course-rating{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #A2A2A2;
+}
+.course-info{}
+.fa-star{
+    font-size: 13px;
+}
+.fa-clock{
+    font-size: 15px;
+    margin-right: 3px;
+}
+.fa-star.filled ,
+.fa-star-half.filled{
+    color: #FFC014;
+}
+.fa-star.empty {
+    color: #AEAEAE;
+    opacity: 0.25;
+}
 /* course-section end  */
